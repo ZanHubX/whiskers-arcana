@@ -188,8 +188,9 @@ function App() {
 
     async function loadReadingPackages() {
       const apiBaseUrl = (
-        import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000/api"
-      ).replace(/\/$/, "");
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://whispers-backend-nyko.onrender.com/api"
+).replace(/\/+$/, "");
 
       try {
         setPackagesLoading(true);
@@ -347,8 +348,9 @@ function App() {
       selectedPackage?.name || legacyPackageNames[reading] || reading;
 
     const apiBaseUrl = (
-      import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000/api"
-    ).replace(/\/$/, "");
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://whispers-backend-nyko.onrender.com/api"
+).replace(/\/+$/, "");
 
     
 const payload = {
@@ -549,8 +551,9 @@ const payload = {
     }
 
     const apiBaseUrl = (
-      import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000/api"
-    ).replace(/\/$/, "");
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://whispers-backend-nyko.onrender.com/api"
+).replace(/\/+$/, "");
 
     const formData = new FormData();
     formData.append("payment_method_id", selectedPaymentMethod);
