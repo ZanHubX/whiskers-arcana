@@ -51,7 +51,7 @@ const translations = {
     navReadings: "Readings",
     navBooking: "Book a Reading",
     navContact: "Contact",
-    language: "မြန်မာ",
+    language: "",
     heroEyebrow: "A LITTLE MAGIC · A MOMENT FOR YOU",
     heroTitle: "Your story is still\nbeing written.",
     heroText:
@@ -128,95 +128,10 @@ const translations = {
     fillName: "Please enter your name first.",
     fillType: "Please choose a reading type.",
   },
-  my: {
-    navHome: "ပင်မစာမျက်နှာ",
-    navStory: "Reader အကြောင်း",
-    navReadings: "Reading များ",
-    navBooking: "Booking ယူရန်",
-    navContact: "ဆက်သွယ်ရန်",
-    language: "English",
-    heroEyebrow: "မှော်ဆန်တဲ့ ခံစားမှု · ကိုယ့်အတွက် ခဏတာ",
-    heroTitle: "သင့်ဘဝဇာတ်လမ်းက\nဆက်လက်ရေးသားနေဆဲပါ။",
-    heroText:
-      "ကိုယ့်စိတ်ကို ပြန်လည်နားထောင်ဖို့၊ စိတ်ထဲက မေးခွန်းတွေကို ဆင်ခြင်ဖို့နဲ့ Tarot ကတ်တွေကတစ်ဆင့် အမြင်သစ်တစ်ခု ရှာဖွေဖို့ အချိန်လေးတစ်ခု ပေးလိုက်ပါ။",
-    explore: "Reading များ ကြည့်ရန်",
-    meet: "Reader အကြောင်း သိရန်",
-    heroNote: "ကိုယ့်ခရီးစဉ်ကို ယုံကြည်ပါ။ ကိုယ့်အလင်းကို တန်ဖိုးထားပါ။",
-    storyEyebrow: "ကတ်လေးတွေရဲ့ နောက်ကွယ်မှာ",
-    storyTitle: "ကျွန်မအကြောင်း အနည်းငယ်။",
-    storyIntro:
-      "Whiskers & Whispers Arcana မှ ကြိုဆိုပါတယ်။ ကိုယ့်အကြောင်းကို ပြန်လည်ဆင်ခြင်ဖို့၊ စူးစမ်းလေ့လာဖို့နဲ့ အဓိပ္ပာယ်ရှိတဲ့ စကားဝိုင်းလေးတွေ ဖန်တီးဖို့ ရည်ရွယ်ထားတဲ့ နေရာလေးတစ်ခုပါ။",
-    storyHeading: "Tarot နဲ့ ကျွန်မရဲ့ ခရီးစဉ်",
-    storyP1:
-      "Tarot ကို စိတ်ဝင်စားလာခဲ့တာက ကတ်တစ်ကတ်စီရဲ့ လှပတဲ့ ပုံရိပ်တွေနဲ့ နောက်ကွယ်က ဇာတ်လမ်းတွေကြောင့်ပါ။ ဒီသင်္ကေတလေးတွေက ခဏရပ်ပြီး ကိုယ့်အခြေအနေတွေကို ရှုထောင့်အသစ်ကနေ ပြန်လည်ကြည့်ရှုနိုင်ဖို့ ဘယ်လိုအထောက်အကူပြုနိုင်မလဲဆိုတာ စူးစမ်းချင်လာခဲ့ပါတယ်။",
-    storyP2:
-      "ဒီနေရာလေးကို ဖန်တီးခဲ့တာက ကိုယ့်ခံစားချက်တွေ၊ ဆက်ဆံရေးတွေနဲ့ ကိုယ်ပိုင်ဘဝခရီးစဉ်ကို အလျင်မလိုဘဲ၊ အပြစ်တင်ခံရမှာ မစိုးရိမ်ဘဲ အေးအေးဆေးဆေး ပြန်လည်ဆင်ခြင်နိုင်ဖို့ပါ။",
-    storyP3:
-      "Reading လုပ်တဲ့အခါ ကျွန်မရဲ့ ချဉ်းကပ်ပုံက နူးညံ့မှု၊ ပွင့်လင်းမှုနဲ့ တစ်ဦးချင်းစီကို လေးစားမှုတို့ကို အခြေခံပါတယ်။ Tarot ကို အနာဂတ်ကို အတိအကျ ဆုံးဖြတ်ပေးတဲ့အရာလို့ မမြင်ဘဲ ကိုယ့်ကိုယ်ကို ပြန်လည်နားလည်ဖို့ အထောက်အကူပြုတဲ့ နည်းလမ်းတစ်ခုလို့ မြင်ပါတယ်။ သင့်ဘဝအတွက် ရွေးချယ်ဆုံးဖြတ်ပိုင်ခွင့်က သင့်လက်ထဲမှာပဲ ရှိနေပါတယ်။",
-    storyQuote:
-      "ကတ်လေးတွေက အမြင်သစ်တစ်ခု ပေးနိုင်ပေမဲ့ ကိုယ့်လမ်းကို ရွေးချယ်သူကတော့ ကိုယ်တိုင်ပါပဲ။",
-    signature: "နွေးထွေးမှုလေးတွေနဲ့အတူ၊",
-    readerRole: "Tarot Reader · Whiskers & Whispers Arcana",
-    serviceEyebrow: "သင့်ခရီးစဉ်ကို ရွေးချယ်ပါ",
-    serviceTitle: "ဒီနေ့ ဘယ်အကြောင်းအရာကို\nစူးစမ်းကြည့်ချင်ပါသလဲ။",
-    serviceText:
-      "သင့်စိတ်ထဲက မေးခွန်းနဲ့ အကိုက်ညီဆုံး Reading အမျိုးအစားကို ရွေးချယ်လိုက်ပါ။",
-    priceLabel: "Reading ကြေး",
-    addQuestion: "+ မေးခွန်း ထပ်ထည့်ရန်",
-    removeQuestion: "ဖယ်ရှားရန်",
-    services: [
-      {
-        title: "မေးခွန်းတစ်ခုအတွက် Reading",
-        description:
-          "သင့်စိတ်ထဲမှာ ရှိနေတဲ့ မေးခွန်းတစ်ခုကို Tarot ကတ်တွေရဲ့ သင်္ကေတတွေနဲ့အတူ ပြန်လည်စူးစမ်းကြည့်ပါ။",
-        tag: "နူးညံ့တဲ့ အစပြုခြင်း",
-      },
-      {
-        title: "အချစ်ရေးနှင့် ဆက်ဆံရေး",
-        description:
-          "ကိုယ့်ခံစားချက်တွေ၊ ဆက်ဆံရေးပုံစံတွေနဲ့ နှလုံးသားအတွက် တကယ်အရေးကြီးတဲ့အရာတွေကို ပြန်လည်ဆင်ခြင်ပါ။",
-        tag: "နှလုံးသားရဲ့ အကြောင်းအရာ",
-      },
-      {
-        title: "ဘဝလမ်းကြောင်းနှင့် ကိုယ်တိုင်ဆင်ခြင်မှု",
-        description:
-          "ကိုယ်တိုင်တိုးတက်ပြောင်းလဲမှု၊ လက်ရှိအခက်အခဲတွေနဲ့ ရှေ့ဆက်နိုင်မယ့် လမ်းကြောင်းတွေကို စူးစမ်းကြည့်ပါ။",
-        tag: "ကိုယ့်အတွက် ခဏတာ",
-      },
-    ],
-    bookingEyebrow: "သင့်အတွက် သီးသန့် Reading",
-    bookingTitle: "သင့်ခရီးစဉ်ကို စတင်ကြရအောင်။",
-    bookingText:
-      "Booking request ပြင်ဆင်ဖို့ အောက်မှာ အချက်အလက်အနည်းငယ် ဖြည့်ပေးပါ။ Telegram မှာ မပို့ခင် ပြန်လည်စစ်ဆေးနိုင်ပါတယ်။",
-    name: "သင့်အမည်",
-    namePlaceholder: "အမည် ရိုက်ထည့်ပါ",
-    telegram: "Telegram username",
-    telegramPlaceholder: "@yourusername",
-    readingType: "Reading အမျိုးအစား",
-    choose: "Reading အမျိုးအစား ရွေးပါ",
-    question: "မေးခွန်း (မဖြစ်မနေ မဟုတ်ပါ)",
-    questionPlaceholder: "ဘယ်အကြောင်းအရာကို စူးစမ်းချင်ပါသလဲ။",
-    date: "အဆင်ပြေမယ့် ရက်စွဲ (မဖြစ်မနေ မဟုတ်ပါ)",
-    submit: "Telegram မှာ Booking ပြင်ဆင်ရန် ↗",
-    bookingPrivacy:
-      "Reader ထံ မျှဝေဖို့ အဆင်ပြေတဲ့ အချက်အလက်တွေကိုသာ ဖြည့်ပေးပါ။",
-    contactTitle: "အမြင်သစ်တစ်ခုက စကားဝိုင်းလေးတစ်ခုကနေ စတင်နိုင်ပါတယ်။",
-    contactText:
-      "Booking မလုပ်ခင် မေးချင်တာရှိပါသလား။ Reader ထံ ဆက်သွယ်လိုက်ပါ။",
-    contactButton: "Telegram ဖွင့်ရန် ↗",
-    footerLine: "မှော်ဆန်မှုလေးတစ်ခု၊ အဓိပ္ပာယ်လေးတစ်ခု၊ သင့်အတွက် ခဏတာ။",
-    disclaimer:
-      "Tarot Reading များသည် ကိုယ်တိုင်ဆင်ခြင်သုံးသပ်ရန်နှင့် ဖျော်ဖြေရေးအတွက်သာ ဖြစ်ပါသည်။ ကျန်းမာရေး၊ ဥပဒေရေးရာနှင့် ငွေကြေးဆိုင်ရာ ကျွမ်းကျင်အကြံဉာဏ်များကို အစားမထိုးနိုင်ပါ။",
-    backTop: "အပေါ်သို့ ↑",
-    fillName: "ကျေးဇူးပြု၍ သင့်အမည်ကို ဖြည့်ပေးပါ။",
-    fillType: "Reading အမျိုးအစားကို ရွေးပေးပါ။",
-  },
 };
 
 function App() {
-  const [language, setLanguage] = useState<Language>(() =>
-    localStorage.getItem("wwa-language") === "my" ? "my" : "en",
-  );
+  const [language] = useState<Language>("en");
 
   const page = window.location.pathname.replace(/\/$/, "") || "/";
   const isHome = page === "/";
@@ -259,11 +174,8 @@ function App() {
   const [copiedDetails, setCopiedDetails] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const t = translations[language];
+  const t = translations.en;
 
-  useEffect(() => {
-    localStorage.setItem("wwa-language", language);
-  }, [language]);
 
   // Load active Reading Packages from the Laravel API so the customer view
   // always reflects the packages maintained in the admin panel.
@@ -388,7 +300,7 @@ function App() {
     if (!customerType) {
       setFormError(
         language === "my"
-          ? "Local သို့မဟုတ် Overseas ကို အရင်ရွေးပေးပါ။"
+          ? ""
           : "Please choose Local or Overseas first.",
       );
       return;
@@ -402,7 +314,7 @@ function App() {
     if (!date) {
       setFormError(
         language === "my"
-          ? "Booking အတွက် ရက်နဲ့အချိန် ရွေးပေးပါ။"
+          ? ""
           : "Please choose a booking date and time.",
       );
       return;
@@ -411,7 +323,7 @@ function App() {
     if (!questions.some((item) => item.trim())) {
       setFormError(
         language === "my"
-          ? "မေးခွန်း အနည်းဆုံးတစ်ခု ဖြည့်ပေးပါ။"
+          ? ""
           : "Please enter at least one question.",
       );
       return;
@@ -479,7 +391,7 @@ const payload = {
         throw new Error(
           validationMessages ||
             (language === "my"
-              ? "Booking မအောင်မြင်ပါ။ ပြန်စမ်းကြည့်ပါ။"
+              ? ""
               : "Booking failed. Please try again."),
         );
       }
@@ -532,14 +444,14 @@ const payload = {
           activeMethods.length
             ? ""
             : language === "my"
-              ? "လက်ရှိအသုံးပြုနိုင်တဲ့ Payment Method မရှိသေးပါ။"
+              ? ""
               : "No active payment methods are available yet.",
         );
       } catch {
         setPaymentMethods([]);
         setPaymentMethodsError(
           language === "my"
-            ? "Payment Method များကို မရယူနိုင်ပါ။ Backend ကို စစ်ဆေးပါ။"
+            ? ""
             : "Could not load payment methods. Please check the backend connection.",
         );
       }
@@ -548,7 +460,7 @@ const payload = {
         error instanceof Error
           ? error.message
           : language === "my"
-            ? "မသိရှိသော error ဖြစ်နေပါတယ်။"
+            ? ""
             : "An unexpected error occurred.",
       );
     } finally {
@@ -581,7 +493,7 @@ const payload = {
     } catch {
       setProofError(
         language === "my"
-          ? "Copy မလုပ်နိုင်ပါ။ Booking details ကို ကိုယ်တိုင် select လုပ်ပြီး copy လုပ်ပါ။"
+          ? ""
           : "Could not copy automatically. Please select and copy the booking details manually.",
       );
     }
@@ -591,7 +503,7 @@ const payload = {
     if (!createdBooking || !bookingDetailsText.trim()) {
       setProofError(
         language === "my"
-          ? "Booking details မတွေ့ပါ။"
+          ? ""
           : "Booking details are not available yet.",
       );
       return;
@@ -612,7 +524,7 @@ const payload = {
     if (!createdBooking?.booking_reference) {
       setProofError(
         language === "my"
-          ? "Booking reference မတွေ့ပါ။"
+          ? ""
           : "Booking reference is missing.",
       );
       return;
@@ -621,7 +533,7 @@ const payload = {
     if (!selectedPaymentMethod) {
       setProofError(
         language === "my"
-          ? "Payment Method ရွေးပါ။"
+          ? ""
           : "Please select a payment method.",
       );
       return;
@@ -630,7 +542,7 @@ const payload = {
     if (!proofFile) {
       setProofError(
         language === "my"
-          ? "ငွေလွှဲပြေစာပုံ တင်ပေးပါ။"
+          ? ""
           : "Please choose your payment receipt image.",
       );
       return;
@@ -670,14 +582,14 @@ const payload = {
         throw new Error(
           validationMessages ||
             (language === "my"
-              ? "Receipt တင်မအောင်မြင်ပါ။"
+              ? ""
               : "Receipt upload failed."),
         );
       }
 
       setProofSuccess(
         language === "my"
-          ? "Receipt တင်ပြီးပါပြီ။ Admin စစ်ဆေးအတည်ပြုရန် စောင့်ဆိုင်းပါ။"
+          ? ""
           : "Receipt uploaded successfully. Please wait for admin review.",
       );
 
@@ -691,7 +603,7 @@ const payload = {
         error instanceof Error
           ? error.message
           : language === "my"
-            ? "Receipt တင်ရာတွင် error ဖြစ်နေပါတယ်။"
+            ? ""
             : "An error occurred while uploading the receipt.",
       );
     } finally {
@@ -745,14 +657,6 @@ const payload = {
             {t.navContact}
           </a>
         </nav>
-
-        <button
-          className="language-toggle"
-          type="button"
-          onClick={() => setLanguage(language === "my" ? "en" : "my")}
-        >
-          <span>✦</span> {t.language}
-        </button>
       </header>
 
       {isHome && (
@@ -845,17 +749,17 @@ const payload = {
           <div className="section-heading reveal">
             <p className="eyebrow">
               {language === "my"
-                ? "သင့်အတွက် Reading Package များ"
+                ? ""
                 : "CHOOSE YOUR READING"}
             </p>
             <h2>
               {language === "my"
-                ? "သင့်အတွက် သင့်တော်တဲ့ Reading ကို ရွေးပါ"
+                ? ""
                 : "Find the reading that speaks to you."}
             </h2>
             <p className="section-description">
               {language === "my"
-                ? "Reading package မရွေးခင် သင်နေထိုင်ရာကို အရင်ရွေးပေးပါ။ ရွေးချယ်မှုအလိုက် ဈေးနှုန်းကို ပြသပေးပါမယ်။"
+                ? ""
                 : "First choose where you live. We’ll show the applicable price for your selected location."}
             </p>
           </div>
@@ -881,7 +785,7 @@ const payload = {
               }}
             >
               {language === "my"
-                ? "သင် ဘယ်နေရာမှာ နေထိုင်ပါသလဲ။"
+                ? ""
                 : "Where do you currently live?"}
             </label>
 
@@ -905,17 +809,17 @@ const payload = {
             >
               <option value="">
                 {language === "my"
-                  ? "Local / Overseas ကို ရွေးပါ"
+                  ? ""
                   : "Choose Local or Overseas"}
               </option>
               <option value="local">
                 {language === "my"
-                  ? "Local — မြန်မာနိုင်ငံအတွင်း"
+                  ? ""
                   : "Local — Myanmar"}
               </option>
               <option value="overseas">
                 {language === "my"
-                  ? "Overseas — မြန်မာနိုင်ငံပြင်ပ"
+                  ? ""
                   : "Overseas — Outside Myanmar"}
               </option>
             </select>
@@ -929,7 +833,7 @@ const payload = {
                 }}
               >
                 {language === "my"
-                  ? "Package များနှင့် သက်ဆိုင်ရာဈေးနှုန်းကို ကြည့်ရန် အပေါ်မှာ အရင်ရွေးပေးပါ။"
+                  ? ""
                   : "Choose an option above to view the packages and their applicable prices."}
               </p>
             )}
@@ -940,19 +844,19 @@ const payload = {
               {packagesLoading ? (
                 <p className="package-disclaimer">
                   {language === "my"
-                    ? "Reading Packages များကို ရယူနေပါတယ်..."
+                    ? ""
                     : "Loading reading packages..."}
                 </p>
               ) : packagesError ? (
                 <p className="form-error" role="alert">
                   {language === "my"
-                    ? `Package များကို ရယူမရပါ။ Backend API ကို စစ်ပါ။ (${packagesError})`
+                    ? ""
                     : packagesError}
                 </p>
               ) : readingPackages.length === 0 ? (
                 <p className="package-disclaimer">
                   {language === "my"
-                    ? "လက်ရှိ အသုံးပြုနိုင်သော Reading Package မရှိသေးပါ။"
+                    ? ""
                     : "No active reading packages are available."}
                 </p>
               ) : (
@@ -977,8 +881,8 @@ const payload = {
                       <div className="package-price-row">
                         <span>
                           {customerType === "local"
-                            ? language === "my" ? "Local ကြေး" : "Local price"
-                            : language === "my" ? "Overseas ကြေး" : "Overseas price"}
+                            ? language === "my" ? "" : "Local price"
+                            : language === "my" ? "" : "Overseas price"}
                         </span>
                         <strong>
                           {Number(
@@ -994,7 +898,7 @@ const payload = {
                         href={`/booking?package=${encodeURIComponent(item.slug)}&customer_type=${encodeURIComponent(customerType)}`}
                       >
                         {language === "my"
-                          ? "ဒီ Reading ကို Booking လုပ်ရန် ↗"
+                          ? ""
                           : "Book this reading ↗"}
                       </a>
                     </article>
@@ -1004,7 +908,7 @@ const payload = {
 
               <p className="package-disclaimer">
                 {language === "my"
-                  ? "ဈေးနှုန်းသည် သင်ရွေးထားသော customer type အလိုက် ပြသထားခြင်းဖြစ်သည်။ Booking မပို့မီ Reader ၏ pricing policy ကို အတည်ပြုပါ။"
+                  ? ""
                   : "Prices shown match your selected location category. Please review the reader’s pricing policy before submitting your booking."}
               </p>
             </>
@@ -1017,7 +921,7 @@ const payload = {
               }}
             >
               {language === "my"
-                ? "Package များကို ကြည့်ရန် Local သို့မဟုတ် Overseas ကို အရင်ရွေးပါ။"
+                ? ""
                 : "Please choose Local or Overseas above to see the reading packages."}
             </div>
           )}
@@ -1048,7 +952,7 @@ const payload = {
 
               <label htmlFor="booking-customer-type">
                 {language === "my"
-                  ? "Customer အမျိုးအစား (အရင်ရွေးပါ)"
+                  ? ""
                   : "Customer type (choose first)"}
               </label>
 
@@ -1064,7 +968,7 @@ const payload = {
               >
                 <option value="">
                   {language === "my"
-                    ? "Local / Overseas ရွေးပါ"
+                    ? ""
                     : "Choose Local or Overseas"}
                 </option>
                 <option value="local">Local</option>
@@ -1166,16 +1070,16 @@ const payload = {
               >
                 {isSubmitting
                   ? language === "my"
-                    ? "Booking သိမ်းဆည်းနေသည်..."
+                    ? ""
                     : "Creating booking..."
                   : language === "my"
-                    ? "Booking တင်ရန်"
+                    ? ""
                     : "Create Booking"}
               </button>
 
               <p className="form-footnote">
                 {language === "my"
-                  ? "Booking တင်ပြီးနောက် Reference နဲ့ ကျသင့်ငွေကို ပြသပေးပါမယ်။ Booking သည် payment အတည်ပြုပြီးမှ confirmed ဖြစ်ပါမယ်။"
+                  ? ""
                   : "Your booking reference and fee will appear after submission. The booking is confirmed only after payment approval."}
               </p>
             </form>
@@ -1229,19 +1133,19 @@ const payload = {
               <div>
                 <p className="eyebrow" style={{ marginTop: 0 }}>
                   {language === "my"
-                    ? "BOOKING အောင်မြင်ပါပြီ"
+                    ? ""
                     : "BOOKING SUCCESSFUL"}
                 </p>
 
                 <h2 id="booking-success-title" style={{ marginTop: 0 }}>
                   {language === "my"
-                    ? "သင့် Booking ကို သိမ်းဆည်းပြီးပါပြီ။"
+                    ? ""
                     : "Your booking has been created."}
                 </h2>
 
                 <p style={{ color: "#d8c7e8" }}>
                   {language === "my"
-                    ? "အောက်ပါအချက်အလက်များကို copy လုပ်ပြီး Reader ထံ Telegram မှာ ပို့နိုင်ပါတယ်။"
+                    ? ""
                     : "Copy these details and send them to your reader on Telegram."}
                 </p>
               </div>
@@ -1340,7 +1244,7 @@ const payload = {
 
                 <p className="eyebrow" style={{ margin: "0 0 8px" }}>
                   {language === "my"
-                    ? "PAYMENT RECEIPT တင်ပြီးပါပြီ"
+                    ? ""
                     : "PAYMENT RECEIPT SUBMITTED"}
                 </p>
 
@@ -1350,7 +1254,7 @@ const payload = {
                     fontSize: "clamp(24px, 4vw, 34px)",
                   }}
                 >
-                  {language === "my" ? "အောင်မြင်ပါပြီ bro!" : "All done!"}
+                  {language === "my" ? "" : "All done!"}
                 </h2>
 
                 <p
@@ -1362,7 +1266,7 @@ const payload = {
                   }}
                 >
                   {language === "my"
-                    ? "သင့်ငွေလွှဲပြေစာကို လက်ခံရရှိပါပြီ။ Admin က စစ်ဆေးအတည်ပြုပြီးမှ Booking ကို Confirmed အဖြစ် ပြောင်းလဲပေးပါမယ်။"
+                    ? ""
                     : "Your receipt has been submitted successfully. The admin will review it; your booking is confirmed only after payment approval."}
                 </p>
 
@@ -1381,10 +1285,10 @@ const payload = {
                   >
                     {copiedDetails
                       ? language === "my"
-                        ? "ကူးယူပြီးပါပြီ ✓"
+                        ? ""
                         : "Copied ✓"
                       : language === "my"
-                        ? "Booking Details Copy လုပ်ရန်"
+                        ? ""
                         : "Copy Booking Details"}
                   </button>
 
@@ -1394,7 +1298,7 @@ const payload = {
                     onClick={shareBookingOnTelegram}
                   >
                     {language === "my"
-                      ? "Telegram မှာ မျှဝေရန် ↗"
+                      ? ""
                       : "Share on Telegram ↗"}
                   </button>
 
@@ -1403,7 +1307,7 @@ const payload = {
                     className="button button-outline"
                     onClick={() => setCreatedBooking(null)}
                   >
-                    {language === "my" ? "ပြီးပါပြီ" : "Done"}
+                    {language === "my" ? "" : "Done"}
                   </button>
                 </div>
               </div>
@@ -1440,10 +1344,10 @@ const payload = {
                   >
                     {copiedDetails
                       ? language === "my"
-                        ? "ကူးယူပြီးပါပြီ ✓"
+                        ? ""
                         : "Copied ✓"
                       : language === "my"
-                        ? "Booking Details Copy လုပ်ရန်"
+                        ? ""
                         : "Copy Booking Details"}
                   </button>
 
@@ -1453,7 +1357,7 @@ const payload = {
                     onClick={shareBookingOnTelegram}
                   >
                     {language === "my"
-                      ? "Telegram မှာ မျှဝေရန် ↗"
+                      ? ""
                       : "Share on Telegram ↗"}
                   </button>
 
@@ -1464,7 +1368,7 @@ const payload = {
                     rel="noopener noreferrer"
                   >
                     {language === "my"
-                      ? "Reader ကို ဆက်သွယ်ရန် ↗"
+                      ? ""
                       : "Open Reader Telegram ↗"}
                   </a>
                 </div>
@@ -1478,12 +1382,12 @@ const payload = {
                 />
 
                 <h3 style={{ marginBottom: "8px" }}>
-                  {language === "my" ? "ငွေပေးချေမှု" : "Payment"}
+                  {language === "my" ? "" : "Payment"}
                 </h3>
 
                 <p style={{ color: "#d8c7e8", marginTop: 0 }}>
                   {language === "my"
-                    ? "Payment Method ကိုရွေးပြီး ငွေလွှဲပြေစာပုံကို တင်ပါ။"
+                    ? ""
                     : "Choose a payment method and upload your payment receipt."}
                 </p>
 
@@ -1503,7 +1407,7 @@ const payload = {
                   >
                     <label htmlFor="modal-payment-method">
                       {language === "my"
-                        ? "Payment Method ရွေးပါ"
+                        ? ""
                         : "Payment method"}
                     </label>
 
@@ -1524,7 +1428,7 @@ const payload = {
                     >
                       <option value="">
                         {language === "my"
-                          ? "Payment Method ရွေးပါ"
+                          ? ""
                           : "Select a payment method"}
                       </option>
 
@@ -1555,7 +1459,7 @@ const payload = {
                           {method.account_name && (
                             <div>
                               {language === "my"
-                                ? "အကောင့်အမည်"
+                                ? ""
                                 : "Account name"}
                               : {method.account_name}
                             </div>
@@ -1564,7 +1468,7 @@ const payload = {
                           {method.account_number && (
                             <div>
                               {language === "my"
-                                ? "အကောင့်နံပါတ်"
+                                ? ""
                                 : "Account number"}
                               : {method.account_number}
                             </div>
@@ -1584,7 +1488,7 @@ const payload = {
                 >
                   <label htmlFor="transaction-reference">
                     {language === "my"
-                      ? "Transaction Reference (ရှိပါက)"
+                      ? ""
                       : "Transaction reference (optional)"}
                   </label>
 
@@ -1596,13 +1500,13 @@ const payload = {
                     }
                     maxLength={255}
                     placeholder={
-                      language === "my" ? "ငွေလွှဲနံပါတ်" : "Transfer / transaction ID"
+                      language === "my" ? "" : "Transfer / transaction ID"
                     }
                   />
 
                   <label htmlFor="payment-proof-file">
                     {language === "my"
-                      ? "ငွေလွှဲပြေစာပုံ (JPG, PNG, WEBP · 5MB အထိ)"
+                      ? ""
                       : "Receipt image (JPG, PNG, WEBP · max 5MB)"}
                   </label>
 
@@ -1636,10 +1540,10 @@ const payload = {
                   >
                     {isUploadingProof
                       ? language === "my"
-                        ? "တင်နေသည်..."
+                        ? ""
                         : "Uploading..."
                       : language === "my"
-                        ? "Receipt တင်ရန်"
+                        ? ""
                         : "Upload Payment Receipt"}
                   </button>
                 </form>
@@ -1653,7 +1557,7 @@ const payload = {
                   }}
                 >
                   {language === "my"
-                    ? "Receipt တင်ပြီးနောက် Admin က စစ်ဆေးအတည်ပြုမည်။ Payment အတည်မပြုမချင်း Booking သည် confirmed မဖြစ်သေးပါ။"
+                    ? ""
                     : "Your receipt will be reviewed by the admin. The booking is not confirmed until payment is approved."}
                 </p>
               </>
@@ -1686,10 +1590,10 @@ const payload = {
         className="scroll-to-top"
         type="button"
         aria-label={
-          language === "my" ? "အပေါ်သို့ ပြန်တက်ရန်" : "Scroll to top"
+          language === "my" ? "" : "Scroll to top"
         }
         title={
-          language === "my" ? "အပေါ်သို့ ပြန်တက်ရန်" : "Scroll to top"
+          language === "my" ? "" : "Scroll to top"
         }
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       >
