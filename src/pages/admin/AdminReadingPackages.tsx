@@ -83,7 +83,7 @@ function AdminSidebar() {
         </NavLink>
 
         <NavLink
-          to="/admin/packages"
+          to="/admin/reading-packages"
           className={({ isActive }) =>
             `admin-nav-item${isActive ? " active" : ""}`
           }
