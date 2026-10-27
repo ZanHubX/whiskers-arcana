@@ -123,7 +123,7 @@ const translations = {
     contactButton: "Open Telegram ↗",
     footerLine: "A little magic. A little meaning. A moment for you.",
     disclaimer:
-      "Tarot readings are for personal reflection and entertainment. They do not replace professional medical, legal, or financial advice.",
+      "Tarot readings are offered for self-reflection and personal insight. They are designed to guide your inner journey and are not a substitute for professional medical, legal, or financial advice.",
     backTop: "Back to top ↑",
     fillName: "Please enter your name first.",
     fillType: "Please choose a reading type.",
