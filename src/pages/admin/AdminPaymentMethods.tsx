@@ -234,7 +234,7 @@ export default function AdminPaymentMethods() {
           <Link className="admin-nav-item" to="/admin/payments">
             <span>◇</span> Payments
           </Link>
-          <Link className="admin-nav-item" to="/admin/packages">
+          <Link className="admin-nav-item" to="/admin/reading-packages">
             <span>✧</span> Reading Packages
           </Link>
           <Link className="admin-nav-item active" to="/admin/payment-methods">
