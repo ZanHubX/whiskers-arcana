@@ -83,7 +83,7 @@ const navItems = [
   { label: "Payments", href: "/admin/payments", icon: "◇" },
   {
     label: "Reading Packages",
-    href: "/admin/reading-packages",
+    href: "/admin/packages",
     icon: "✧",
   },
   {
