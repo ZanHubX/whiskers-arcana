@@ -179,7 +179,7 @@ export default function AdminDashboard() {
 
           <Link
             className="admin-nav-item"
-            to="/admin/packages"
+            to="/admin/reading-packages"
           >
             <span>✧</span> Reading Packages
           </Link>
