@@ -32,6 +32,8 @@ export default function RootRoutes() {
           <Route path="/admin/bookings" element={<AdminBookings />} />
           <Route path="/admin/payments" element={<AdminPayments />} />
           <Route path="/admin/packages" element={<AdminReadingPackages />} />
+          {/* Keep the previous URL working for saved links/bookmarks. */}
+          <Route path="/admin/reading-packages" element={<AdminReadingPackages />} />
           <Route
             path="/admin/payment-methods"
             element={<AdminPaymentMethods />}
