@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { FormEvent } from "react";
+import { tarotProducts } from "./data/tarotProducts";
 import "./index.css";
 
 type Language = "en" | "my";
@@ -49,6 +50,7 @@ const translations = {
     navHome: "Home",
     navStory: "Meet the Reader",
     navReadings: "Readings",
+    navShop: "Tarot Shop",
     navBooking: "Book a Reading",
     navContact: "Contact",
     language: "",
@@ -136,6 +138,7 @@ function App() {
   const page = window.location.pathname.replace(/\/$/, "") || "/";
   const isHome = page === "/";
   const isReadings = page === "/readings";
+  const isShop = page === "/shop";
   const isBooking = page === "/booking";
 
   const [formName, setFormName] = useState("");
@@ -649,6 +652,9 @@ const payload = {
           <a onClick={() => setMenuOpen(false)} href="/readings">
             {t.navReadings}
           </a>
+          <a onClick={() => setMenuOpen(false)} href="/shop">
+            {t.navShop}
+          </a>
           <a
             onClick={() => setMenuOpen(false)}
             href="/booking"
@@ -926,6 +932,88 @@ const payload = {
               {language === "my"
                 ? ""
                 : "Please choose Local or Overseas above to see the reading packages."}
+            </div>
+          )}
+        </section>
+      )}
+
+
+      {isShop && (
+        <section className="shop-page">
+          <div className="shop-intro reveal">
+            <p className="eyebrow">THE ARCANA COLLECTION</p>
+            <h1>Find the deck that calls to you.</h1>
+            <div className="shop-ornament" aria-hidden="true">
+              <span />
+              <b>✦</b>
+              <span />
+            </div>
+            <p>
+              Explore a collection of tarot and oracle decks chosen for their
+              artwork, symbolism, and the stories they hold.
+            </p>
+          </div>
+
+          {tarotProducts.length > 0 ? (
+            <div className="shop-grid">
+              {tarotProducts.map((product) => (
+                <article className="shop-card" key={product.id}>
+                  <div className="shop-card-image">
+                    <img src={product.image} alt={product.name} loading="lazy" />
+                    <span className="shop-card-image-mark" aria-hidden="true">✧</span>
+                  </div>
+
+                  <div className="shop-card-content">
+                    <div className="shop-card-meta">
+                      <span>WHISKERS & WHISPERS</span>
+                      <span className={`shop-stock shop-stock-${product.availability}`}>
+                        {product.availability === "available"
+                          ? "Available"
+                          : product.availability === "preorder"
+                            ? "Pre-order"
+                            : "Sold out"}
+                      </span>
+                    </div>
+
+                    <h2>{product.name}</h2>
+                    <p>{product.description}</p>
+
+                    <div className="shop-card-bottom">
+                      <strong>
+                        {typeof product.price === "number" && product.currency
+                          ? `${product.price.toLocaleString()} ${product.currency}`
+                          : "Price on request"}
+                      </strong>
+                      <a
+                        href={`https://telegram.me/${TELEGRAM_USERNAME}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`Contact on Telegram about ${product.name}`}
+                      >
+                        Contact to Purchase <span aria-hidden="true">↗</span>
+                      </a>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          ) : (
+            <div className="shop-empty reveal">
+              <span className="shop-empty-moon" aria-hidden="true">☾</span>
+              <p className="eyebrow">A COLLECTION IN THE MAKING</p>
+              <h2>Something magical is on its way.</h2>
+              <p>
+                We’re preparing the tarot and oracle deck collection.
+                Contact the reader to ask about the decks currently available.
+              </p>
+              <a
+                className="button button-gold"
+                href={`https://telegram.me/${TELEGRAM_USERNAME}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ask about the collection ↗
+              </a>
             </div>
           )}
         </section>
