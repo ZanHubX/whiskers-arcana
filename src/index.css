@@ -1746,3 +1746,306 @@ body, button, input, select, textarea {
   color: #e5c783 !important;
   border-color: #e5c783 !important;
 }
+
+
+/* TAROT SHOP — luxury deck collection */
+.shop-page {
+  width: min(1180px, calc(100% - 48px));
+  min-height: calc(100vh - 180px);
+  margin: 0 auto;
+  padding: clamp(76px, 9vw, 118px) 0 100px;
+}
+
+.shop-intro {
+  max-width: 720px;
+  margin: 0 auto 54px;
+  text-align: center;
+}
+
+.shop-intro h1 {
+  margin: 14px 0 18px;
+  color: var(--cream, #f6ecdc);
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.shop-intro > p:last-child {
+  max-width: 600px;
+  margin: 0 auto;
+  color: var(--muted, #c9bdce);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.shop-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 24px 0;
+  color: var(--gold, #dfc184);
+}
+
+.shop-ornament span {
+  width: 70px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(223, 193, 132, .8));
+}
+
+.shop-ornament span:last-child {
+  transform: rotate(180deg);
+}
+
+.shop-ornament b {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+}
+
+.shop-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid rgba(218, 188, 128, .34);
+  border-radius: 12px;
+  background:
+    linear-gradient(155deg, rgba(64, 43, 76, .82), rgba(24, 15, 37, .98));
+  box-shadow: 0 16px 38px rgba(0, 0, 0, .2);
+  transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+}
+
+.shop-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(224, 194, 132, .78);
+  box-shadow: 0 22px 46px rgba(0, 0, 0, .28), 0 0 24px rgba(224, 194, 132, .08);
+}
+
+.shop-card-image {
+  position: relative;
+  aspect-ratio: 4 / 4.35;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(218, 188, 128, .27);
+  background:
+    radial-gradient(ellipse at 50% 45%, rgba(133, 93, 145, .34), transparent 62%),
+    linear-gradient(145deg, #30203d, #171022);
+}
+
+.shop-card-image::before {
+  position: absolute;
+  z-index: 1;
+  inset: 12px;
+  border: 1px solid rgba(229, 203, 151, .48);
+  border-radius: 3px;
+  content: "";
+  pointer-events: none;
+}
+
+.shop-card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 500ms ease;
+}
+
+.shop-card:hover .shop-card-image img {
+  transform: scale(1.045);
+}
+
+.shop-card-image-mark {
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  color: rgba(246, 225, 181, .88);
+  font-size: 20px;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, .6);
+}
+
+.shop-card-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 236px;
+  padding: 21px 21px 20px;
+}
+
+.shop-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #bda779;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+
+.shop-stock {
+  flex: 0 0 auto;
+  padding: 5px 8px;
+  border: 1px solid rgba(218, 188, 128, .3);
+  border-radius: 20px;
+  color: #e5d4ad;
+  font-size: 9px;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.shop-stock-available {
+  border-color: rgba(150, 190, 145, .35);
+  color: #c5dcb9;
+}
+
+.shop-stock-sold-out {
+  border-color: rgba(218, 155, 155, .35);
+  color: #e2baba;
+}
+
+.shop-card h2 {
+  margin: 17px 0 8px;
+  color: #f6ecdc;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.25rem, 2vw, 1.55rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.shop-card-content > p {
+  flex: 1;
+  margin: 0 0 18px;
+  color: #c9bdce;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+.shop-card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(218, 188, 128, .2);
+}
+
+.shop-card-bottom strong {
+  color: #ead09a;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.shop-card-bottom a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #f2dba9;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.shop-card-bottom a:hover {
+  color: #fff2d1;
+}
+
+.shop-empty {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: clamp(35px, 7vw, 64px) 28px;
+  border: 1px solid rgba(218, 188, 128, .34);
+  border-radius: 14px;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(106, 65, 117, .25), transparent 68%),
+    rgba(255, 255, 255, .025);
+  text-align: center;
+}
+
+.shop-empty-moon {
+  display: block;
+  margin-bottom: 16px;
+  color: var(--gold, #dfc184);
+  font-family: Georgia, serif;
+  font-size: 44px;
+}
+
+.shop-empty h2 {
+  margin: 12px 0;
+  color: #f6ecdc;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  font-weight: 500;
+}
+
+.shop-empty > p:not(.eyebrow) {
+  max-width: 470px;
+  margin: 0 auto 24px;
+  color: #c9bdce;
+  font-size: 13px;
+  line-height: 1.85;
+}
+
+.shop-empty .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .shop-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .shop-page {
+    width: calc(100% - 36px);
+    padding: 68px 0 76px;
+  }
+
+  .shop-intro {
+    margin-bottom: 34px;
+  }
+
+  .shop-intro h1 {
+    font-size: clamp(2.15rem, 10vw, 3rem);
+  }
+
+  .shop-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .shop-card-image {
+    aspect-ratio: 4 / 3.7;
+  }
+
+  .shop-card-content {
+    min-height: 0;
+    padding: 19px;
+  }
+
+  .shop-card h2 {
+    font-size: 1.45rem;
+  }
+
+  .shop-empty {
+    padding: 38px 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shop-card,
+  .shop-card-image img {
+    transition: none;
+  }
+}
