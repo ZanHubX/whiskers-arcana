@@ -301,7 +301,7 @@ function App() {
     elements.forEach((element) => observer.observe(element));
 
     return () => observer.disconnect();
-  }, [language]);
+  }, [language, page]);
 
   async function handleBooking(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
