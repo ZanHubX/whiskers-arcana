@@ -135,7 +135,18 @@ const translations = {
 function App() {
   const [language] = useState<Language>("en");
 
-  const page = window.location.pathname.replace(/\/$/, "") || "/";
+  const [page, setPage] = useState(
+    () => window.location.pathname.replace(/\/$/, "") || "/",
+  );
+
+  useEffect(() => {
+    const syncPageFromHistory = () => {
+      setPage(window.location.pathname.replace(/\/$/, "") || "/");
+    };
+
+    window.addEventListener("popstate", syncPageFromHistory);
+    return () => window.removeEventListener("popstate", syncPageFromHistory);
+  }, []);
   const isHome = page === "/";
   const isReadings = page === "/readings";
   const isShop = page === "/shop";
@@ -652,7 +663,16 @@ const payload = {
           <a onClick={() => setMenuOpen(false)} href="/readings">
             {t.navReadings}
           </a>
-          <a onClick={() => setMenuOpen(false)} href="/shop">
+          <a
+            href="/shop"
+            onClick={(event) => {
+              event.preventDefault();
+              window.history.pushState({}, "", "/shop");
+              setPage("/shop");
+              setMenuOpen(false);
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+          >
             {t.navShop}
           </a>
           <a
