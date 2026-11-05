@@ -2049,3 +2049,28 @@ body, button, input, select, textarea {
     transition: none;
   }
 }
+
+
+/* Product condition label on Tarot Shop cards */
+.shop-card-condition {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 18px;
+  padding: 10px 12px;
+  border: 1px solid rgba(218, 188, 128, 0.3);
+  border-radius: 6px;
+  background: rgba(218, 188, 128, 0.06);
+}
+
+.shop-card-condition span {
+  color: #c9bdce;
+  font-size: 12px;
+}
+
+.shop-card-condition strong {
+  color: #dfc184;
+  font-size: 13px;
+  font-weight: 700;
+}
