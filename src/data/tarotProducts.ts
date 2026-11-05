@@ -1,17 +1,12 @@
+
 /**
- * Tarot and oracle decks displayed in the public Tarot Shop.
+ * Whiskers & Whispers Arcana
+ * Tarot & Oracle Deck Product Catalogue
  *
- * Add each real product below and place its photo in public/products/.
- * Example:
- * {
- *   id: "moonlit-tarot",
- *   name: "Moonlit Tarot",
- *   description: "A short description of this deck.",
- *   image: "/products/moonlit-tarot.jpg",
- *   price: 35000,
- *   currency: "MMK",
- *   availability: "available",
- * }
+ * HOW TO ADD A PRODUCT:
+ * 1. Put the product image inside: public/products/
+ * 2. Add the product details below.
+ * 3. Make sure the image filename matches exactly.
  */
 
 export type TarotProduct = {
