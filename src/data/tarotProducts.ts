@@ -43,7 +43,7 @@ export const tarotProducts: TarotProduct[] = [
   },
   {
     id: "Tea Leaf Oracle ",
-    name: "Tea Leaf Oracle (200 Cards Included)",
+    name: "Tea Leaf Oracle(200 Cards Included)",
     description: "Card Finish: Matte Finish",
     image: "/products/tlo.jpg",
     price: 35000,
