@@ -22,6 +22,18 @@ export type TarotProduct = {
   price?: number;
   currency?: string;
   availability: "available" | "preorder" | "sold-out";
+  condition?: string;
 };
 
-export const tarotProducts: TarotProduct[] = [];
+export const tarotProducts: TarotProduct[] = [
+  {
+    id: "korenji-tarot",
+    name: "Korenji Tarot (Hard Box)",
+    description: "Card Stock: Textured Finish (Easy to Shuffle).",
+    image: "/products/korenji-tarot.png",
+    price: 35000,
+    currency: "MMK",
+    availability: "available",
+    condition: "99% New",
+  },
+];
