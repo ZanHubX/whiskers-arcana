@@ -998,6 +998,13 @@ const payload = {
                     <h2>{product.name}</h2>
                     <p>{product.description}</p>
 
+                    {product.condition && (
+                      <div className="shop-card-condition">
+                        <span>Condition</span>
+                        <strong>{product.condition}</strong>
+                      </div>
+                    )}
+
                     <div className="shop-card-bottom">
                       <strong>
                         {typeof product.price === "number" && product.currency
